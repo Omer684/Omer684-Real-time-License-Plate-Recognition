@@ -259,6 +259,8 @@ st.write(
     "OCR, with watchlist alerts for flagged plates."
 )
 
+tab_video, tab_live = st.tabs(["📁 Upload Video", "📷 Live Camera"])
+
 # ---------------------------------------------------------------------------
 # Session state for results (persists across reruns within a session)
 # ---------------------------------------------------------------------------
